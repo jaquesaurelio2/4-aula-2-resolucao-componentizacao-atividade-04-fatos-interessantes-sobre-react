@@ -1,0 +1,49 @@
+body {
+  font-family: Inter, sans-serif;
+  margin: 0px;
+  background-color: #282d35;
+}
+
+.navBar {
+  background-color: #21222a;
+  height: 91px;
+  display: flex;
+  align-items: center;
+  padding: 0px 26px;
+}
+
+.navBarTitle {
+  color: #61dafb;
+  font-size: 22.25px;
+  font-weight: bold;
+  margin-left: 6.68px;
+  margin-right: auto;
+}
+
+.navBarProject {
+  color: #deebf8;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.main {
+  padding: 34px 27px;
+  height: calc(100vh - 91px);
+  background-image: url(./images/react-bg.svg);
+  background-repeat: no-repeat;
+  background-position: right 25%;
+}
+
+.mainTitle {
+  color: #ffffff;
+  font-size: 39.06px;
+  margin-top: 0px;
+}
+
+.main li {
+  list-style-image: url(./images/ellipse.svg);
+  text-align: left;
+  color: #ffffff;
+  padding-block: 10px;
+  max-width: 424px;
+}
